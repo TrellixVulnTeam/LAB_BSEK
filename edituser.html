@@ -3,26 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>学生A</title>
+  <title>AdminLTE 3 | General Form Elements</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome Icons -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-  <!-- IonIcons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
-<!--
-`body` tag options:
-
-  Apply one or more of the following classes to to the body tag
-  to get the desired effect
-
-  * sidebar-collapse
-  * sidebar-mini
--->
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
   <!-- Navbar -->
@@ -33,10 +22,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">主页</a>
+        <a href="../../index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="about.html" class="nav-link">关于</a>
+        <a href="#" class="nav-link">Contact</a>
       </li>
     </ul>
 
@@ -63,15 +52,6 @@
           </form>
         </div>
       </li>
-
-      <!-- Messages Dropdown Menu -->
-      
-            <!-- Message End -->
-          
-            <!-- Message End -->
-          
-            <!-- Message End -->
-         
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
@@ -112,7 +92,6 @@
     </ul>
   </nav>
   <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
@@ -142,7 +121,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -209,144 +187,114 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">个人信息</h1>
-          </div><!-- /.col -->
+            <h1>修改个人信息</h1>
+          </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="starter.html">主页</a></li>
-              <li class="breadcrumb-item active">个人信息</li>
+              <li class="breadcrumb-item"><a href="user.html">个人信息</a></li>
+              <li class="breadcrumb-item active">修改个人信息</li>
             </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-    <!-- Main content -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <!-- Default box -->
-          <div class="card">
-            <div class="card-header">
-              <h3 class="card-title">基本信息</h3>
-
-              <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                  <i class="fas fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-            <div class="card-body">
-              <p>姓名：</p>
-              <p>学号：</p>
-              <p>班级：</p>
-              <p>QQ：</p>
-            </div>
-            <!-- /.card-body -->
-            <div class="card-footer">
-              <a href="edituser.html" lass="btn btn-success float-right">修改个人信息</a>
-            </div>
-            <!-- /.card-footer-->
           </div>
-          <!-- /.card -->
-      </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
-            <!-- Default box -->
-            <div class="card">
+          <!-- left column -->
+          <div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">个人兴趣点</h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                    <i class="fas fa-times"></i>
-                  </button>
+                <h3 class="card-title">快速开始</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">   
+                <div class="form-group">
+                  <label for="exampleInputBorder">姓名</label>
+                  <input type="text" class="form-control form-control-border" id="exampleInputBorder" placeholder="请输入">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputBorderWidth2">学号</label>
+                  <input type="text" class="form-control form-control-border border-width-2" id="exampleInputBorderWidth2" placeholder="请输入">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputRounded0">班级</label>
+                  <input type="text" class="form-control rounded-0" id="exampleInputRounded0" placeholder="请输入">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputRounded1">QQ</label>
+                  <input type="text" class="form-control rounded-1" id="exampleInputRounded1" placeholder="请输入">
+                </div>
+                <h4>请选择xxxx</h4>
+                <div class="form-group">
+                  <label for="exampleSelectBorder">Tips: <code>请注意</code></label>
+                  <select class="custom-select form-control-border" id="exampleSelectBorder">
+                    <option>Value 1</option>
+                    <option>Value 2</option>
+                    <option>Value 3</option>
+                  </select>
                 </div>
               </div>
-              <div class="card-body">
-                此信息将在兴趣测试进行后后显示
-              </div>
               <!-- /.card-body -->
-              <div class="card-footer">
-                <a href="likes.html" lass="btn btn-success float-right">填写兴趣信息</a>
-              </div>
-              <!-- /.card-footer-->
             </div>
             <!-- /.card -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-12">
-                  <!-- Default box -->
-                  <div class="card">
-                    <div class="card-header">
-                      <h3 class="card-title">获奖及项目经历</h3>
-      
-                      <div class="card-tools">
-                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                          <i class="fas fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                          <i class="fas fa-times"></i>
-                        </button>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      此信息将在管理员审核后显示
-                    </div>
-                    <!-- /.card-body -->
-                    <div class="card-footer">
-                      <a href="uploadhornor.html" lass="btn btn-success float-right">上传荣誉信息</a>
-                    </div>
-                    <!-- /.card-footer-->
-                  </div>
-                  <!-- /.card -->
           </div>
+          <!--/.col (left) -->
         </div>
-          <!-- /.row -->
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <div class="row">
+        <div class="col-12">
+          <a href="user.html" class="btn btn-secondary">返回个人信息页</a>
+          <input type="submit" value="保存个人信息" class="btn btn-success float-right">
         </div>
-        <!-- /.container-fluid -->
+      </div>
+    <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <!-- Control Sidebar -->
-  <!-- /.control-sidebar -->
-  <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
+    <div class="float-right d-none d-sm-block">
       <b>Version</b> 3.2.0
     </div>
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
   </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
-<!-- REQUIRED SCRIPTS -->
+
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap -->
+<!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE -->
-<script src="dist/js/adminlte.js"></script>
-<!-- OPTIONAL SCRIPTS -->
-<script src="plugins/bs-stepper/js/bs-stepper.min.js"></script>
-<!-- dropzonejs -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- bs-custom-file-input -->
+<script src="plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard3.js"></script>
+<!-- Page specific script -->
+<script>
+$(function () {
+  bsCustomFileInput.init();
+});
+</script>
 </body>
 </html>

@@ -24,6 +24,7 @@ Highly customizable and easy to use. Fits many screen resolutions from small mob
 - pages/mailbox即站内信功能的模板
 - pages/search即搜索功能的模板
 - pages/tables即一些内容表格的模板
+- pages/UI即一些组件的样式参考
 
 ## 问题/提议
 - 直接在issues提出即可，最好附上图片

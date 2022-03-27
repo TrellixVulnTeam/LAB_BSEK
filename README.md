@@ -26,6 +26,9 @@ Highly customizable and easy to use. Fits many screen resolutions from small mob
 - pages/tables即一些内容表格的模板
 - pages/UI即一些组件的样式参考
 
+## 文件夹结构
+- LAB文件夹下为各实验室的详情页
+- teacher文件夹下为各老师的个人详情页
 ## 问题/提议
 - 直接在issues提出即可，最好附上图片
 

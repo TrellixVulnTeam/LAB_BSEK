@@ -29,6 +29,7 @@ Highly customizable and easy to use. Fits many screen resolutions from small mob
 ## 文件夹结构
 - LAB文件夹下为各实验室的详情页
 - teacher文件夹下为各老师的个人详情页
+- 各文件夹内均有对应示例
 ## 问题/提议
 - 直接在issues提出即可，最好附上图片
 
